@@ -1,35 +1,115 @@
-# Hola, soy [Tu Nombre]
+<!DOCTYPE html>
+<html lang="es">
 
-¡Bienvenido a mi perfil de GitHub! 👋
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Tu Nombre] - Junior Python Django Developer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
-## Acerca de mí
+        header {
+            background-color: #24292e;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+        }
 
-Soy [Tu Nombre], [una breve descripción sobre ti].
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
 
-- 🌐 [Sitio web/blog personal](https://example.com)
-- 📫 [Correo electrónico](mailto:correo@example.com)
+        h1 {
+            color: #24292e;
+        }
 
-## Mis Proyectos Destacados
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
 
-Aquí algunos proyectos destacados a los que he contribuido:
+        .skills {
+            margin-top: 1.5rem;
+        }
 
-1. [Proyecto 1](https://github.com/tuusuario/proyecto1) - Una breve descripción del proyecto.
-2. [Proyecto 2](https://github.com/tuusuario/proyecto2) - Otra breve descripción.
+        .skills h2 {
+            color: #24292e;
+        }
 
-## Habilidades
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
 
-- 💻 Lenguajes de programación: [Lista de lenguajes]
-- 🛠️ Tecnologías y herramientas: [Lista de tecnologías]
+        .skills li {
+            margin: 0.5rem;
+            background-color: #007acc;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
 
-## Estadísticas de GitHub
+        .contact {
+            margin-top: 2rem;
+            text-align: center;
+        }
 
-![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=tuusuario&show_icons=true&count_private=true&hide=contribs,issues)
+        .contact a {
+            color: #007acc;
+            text-decoration: none;
+        }
 
-## Contacto
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 
-Puedes encontrarme en las siguientes plataformas:
+<body>
 
-- Twitter: [@tuusuario](https://twitter.com/tuusuario)
-- LinkedIn: [Tu Nombre](https://www.linkedin.com/in/tunombre/)
+    <header>
+        <h1>[Tu Nombre]</h1>
+        <p>Junior Python Django Developer</p>
+    </header>
 
-¡Gracias por visitar mi perfil! 😊
+    <section>
+        <h2>Acerca de mí</h2>
+        <p>Soy un apasionado desarrollador junior de Python con experiencia en el framework Django. [Breve descripción sobre ti].</p>
+
+        <div class="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Python</li>
+                <li>Django</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <!-- Agrega más habilidades según sea necesario -->
+            </ul>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contacto</h2>
+        <p>Puedes encontrarme en las siguientes plataformas:</p>
+        <a href="https://twitter.com/tuusuario" target="_blank">Twitter</a> |
+        <a href="https://www.linkedin.com/in/tunombre/" target="_blank">LinkedIn</a> |
+        <a href="mailto:correo@example.com">Correo Electrónico</a>
+    </section>
+
+</body>
+
+</html>
