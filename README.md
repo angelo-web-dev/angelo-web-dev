@@ -17,6 +17,6 @@ Soy un Junior Python Django Developer.
 
 ## Estadísticas de GitHub
 
-![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=angelo-web-dev&show_icons=true&count_private=true&hide=contribs,issues)
+![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=angelo-web-dev&show_icons=true&count_private=true&hide=stars&theme=onedark)
 
 ¡Gracias por visitar mi perfil! 😊
